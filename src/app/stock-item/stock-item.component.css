@@ -1,0 +1,36 @@
+.stock-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block ;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.stock-container .name{
+    display: inline-block;
+}
+.name{
+    padding: 0 auto;
+}
+.positive{
+    color: greenyellow;
+}
+.negative{
+    color: red;
+}
+button{
+    background-color: #cfff33;
+    box-shadow: 0 1px #d8dcd5;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    margin: 8px;
+}
+button:hover{
+    background-color:#00FF00;
+}

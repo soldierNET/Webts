@@ -1,0 +1,12 @@
+.container-form{
+    display: block;
+    margin: auto;
+    padding: 10px 50px;
+    color: #333;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+}

@@ -1,0 +1,47 @@
+.form-group{
+    padding: 20px 10px;
+    max-width: 250px;
+    border-radius: 0.5rem;
+    margin: auto 5px;
+    border: 2px solid #333;
+}
+.stock-name input{
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+.stock-code input{
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+.stock-price input{
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+    margin: 8px;
+  }
+button{
+    background-color: #33FF66;
+    box-shadow: 0 1px #d8dcd5;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    margin: 8px;
+}
+button:hover{
+    background-color:#00FF00;
+}
+select{
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+input.ng-valid{
+    background-color: aquamarine;
+}
+input.ng-invalid{
+    background-color: tomato;
+}
+input.ng-pristine, input.ng-untouched{
+background-color: transparent;
+}

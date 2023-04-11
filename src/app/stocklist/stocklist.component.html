@@ -1,0 +1,13 @@
+<div class="container-form">
+    <form #stockForm="ngForm" class="container">
+        <app-stock-item [(ngModel)]="stock.favorite" *ngFor="let stock of stocks" [stock]=stock name="{{stock.code}}">
+        </app-stock-item>
+    </form>
+    <h2>Favorite list</h2>
+    <div class="container">
+        <div *ngFor="let s of stocks">
+            <app-stock-item [stock]=s *ngIf="s.favorite">
+            </app-stock-item>
+        </div>
+    </div>
+</div>

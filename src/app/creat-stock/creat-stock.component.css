@@ -1,0 +1,12 @@
+
+
+input.ng-valid{
+    background-color: aquamarine;
+}
+input.ng-invalid{
+    background-color: tomato;
+}
+
+input.ng-pristine, input.ng-untouched{
+background-color: transparent;
+}
