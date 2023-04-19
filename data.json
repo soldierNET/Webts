@@ -35,6 +35,33 @@
       "exchange": "NYSE",
       "favorite": "false",
       "id": 4
+    },
+    {
+      "name": "aqq",
+      "code": "asss",
+      "price": 3212,
+      "previousPrice": 3212,
+      "exchange": "NYSE",
+      "favorite": false,
+      "id": 5
+    },
+    {
+      "name": "addfg",
+      "code": "weqwe",
+      "price": 312312,
+      "previousPrice": 312312,
+      "exchange": "OTHER",
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "name": "qsfa",
+      "code": "dadfwqe",
+      "price": 3123,
+      "previousPrice": 3123,
+      "exchange": "NYSE",
+      "favorite": false,
+      "id": 7
     }
   ],
   "profile": {

@@ -11,6 +11,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { StocklistComponent } from './stocklist/stocklist.component';
 import { StockService } from './services/stock.service';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { StockDetailsComponent } from './stock-details/stock-details.component';
+
 
 @NgModule({
   declarations: [
@@ -19,13 +23,16 @@ import { HttpClientModule } from '@angular/common/http';
     CreatStockComponent,
     NcreatStockComponent,
     StocklistComponent,
+    LoginComponent,
+    RegisterComponent,
+    StockDetailsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [StockService],
   bootstrap: [AppComponent]

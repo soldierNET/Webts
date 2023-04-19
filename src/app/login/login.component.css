@@ -1,0 +1,57 @@
+.container {
+    width: 25vw;
+    min-width: 320px;
+    max-width: 640px;
+    margin: auto;
+    padding: 2rem;
+    border:1px solid;
+    border-radius: 1rem;
+    margin-top: 5vh;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0 2rem;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+button {
+    font-weight: 600;
+    display: block;
+    margin: 2rem auto 1rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.5);
+    
+}
+
+button:where(:hover, :focus) {
+    outline-width: 2px;
+}
+
+button:active {
+    outline: 2px solid #96e6a1;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+input {
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0a0a09;
+    padding: .25rem;
+}
+
+input:focus {
+    border-radius: .25rem;
+    outline: 2px solid #0a0a09;
+}
