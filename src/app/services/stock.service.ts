@@ -10,7 +10,7 @@ import { HttpServiceService } from './http-service.service';
 })
 export class StockService {
   private stockList: Stock[] = [];
-  constructor(private httpService: HttpServiceService)
+  constructor(private httpService: HttpServiceService )
   {
     this.httpService.get().subscribe(data =>
       data.stocks.forEach((stock: Stock) =>
@@ -32,5 +32,9 @@ export class StockService {
     }
     this.httpService.post(stock).subscribe(s => this.stockList.push(s));
     return true;
+  }
+  getStock(code:string): Observable<Stock>
+  {
+    return this.httpService.get()
   }
 }

@@ -20,4 +20,7 @@ export class HttpServiceService {
   {
     return this.httpClient.post(this.API_URL, stock);
   }
+  public getStock(code:string): Observable<any>{
+    return this.httpClient.get<Stock>('/api/stocks/'+ code);
+  }
 }
