@@ -13,6 +13,5 @@ export class StockDetailsComponent {
   constructor(private stockService: StockService, private route: ActivatedRoute){}
   ngOnInit(){
     const stockCode = this.route.snapshot.paramMap.get('code');
- 
   }
 }
